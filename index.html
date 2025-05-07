@@ -4,10 +4,65 @@
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Base Vite Project Sass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>GlowQuenn - Spa & Beauty</title>
   </head>
   <body>
-    <h1>Proyecto Vite limpio</h1>
-    <script type="module" src="/src/main.js"></script>
+    <div class="container-principal">
+      <header class="header-principal">
+        <div class="container">
+          <a class="container-logo" href="#">
+            <img src="/img/GlowQueen_logo.png" alt="GlowQueen" />
+          </a>
+          <nav class="nav-principal">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Facilities</a></li>
+              <li><a href="#">More</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="container-login">
+          <a class="search-icon" href="#"
+            ><img src="/img/Search.svg" alt=""
+          /></a>
+          <a class="shop-icon" href="#"><img src="/img/shop.svg" alt="" /></a>
+          <a class="sign-in" href="#">Sign In</a>
+          <a class="button" href="#">Sign Up</a>
+        </div>
+      </header>
+
+      <main>
+        <div class="hero">
+          <div class="hero-container-info">
+            <h1>Bring back the beauty and glow of your skin</h1>
+            <p>
+              We provide you various treatments from head to toe using the best
+              product, advanced technology, and affordable price
+            </p>
+            <div class="hero-container-info-option">
+              <p><a class="button" href="#">Book Now</a></p>
+              <p >
+                <a href="#" class="hero-container-info-option-play"
+                  ><span ><img src="/img/Play.svg" alt="" /></span>watch video</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="hero-container-img">
+            <img class="hero_spa" src="/img/spa.svg" alt="" />
+          </div>
+        </div>
+      </main>
+
+      <script type="module" src="/src/main.js"></script>
+    </div>
   </body>
 </html>
