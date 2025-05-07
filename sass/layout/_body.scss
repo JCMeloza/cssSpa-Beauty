@@ -4,4 +4,11 @@ body{
     background-color: $color-gray-fondo;
     margin: 0;
     padding: 0;
+
+    .container-principal{
+        margin-left: 160px;
+        background-color: $color-gray-fondo;
+        max-width: $size-screen-max;
+        
+    }
 }
