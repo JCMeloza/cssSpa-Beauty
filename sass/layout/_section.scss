@@ -1,0 +1,57 @@
+@use "../abstracts/variables" as *;
+.option {
+    position: absolute;
+    min-width: 643px;
+    background-color: white;
+    top: 600px;
+    left: 160px;
+    z-index: 1;
+    
+    height: 284px;
+    article{
+        padding: 32px;
+        column-gap: 72px;
+    }
+    &-articulos{
+        display: flex;
+        text-align: center;
+        gap: 72px;
+        justify-content: space-around;
+        
+        article{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px;
+            width: 145px;
+            
+        }
+        &-circle {
+            display: flex;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background-color: $color-green;
+            color: $color-blue;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+        &-icon{
+            
+            width: 42px;
+            
+            
+        }
+        &-cantidad {
+            color: $color-blue;
+            font-size: 36px;
+            font-weight: 500;
+        }
+        &-description {
+            color: $color-gray;
+            font-size: 18px;
+            
+        }
+    }
+}

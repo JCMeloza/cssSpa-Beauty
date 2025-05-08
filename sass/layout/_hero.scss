@@ -7,9 +7,9 @@
     margin:0;
     padding: 0;
     display: flex;
-
+    margin-left: 160px;
     &-container-info {
-        width: 70%;
+        min-width: 67%;
         background-color:  $color-gray-fondo;
         z-index: 1;
         
@@ -65,14 +65,14 @@
 
 
     &-container-img{
-        width: 30%;
+        width: 33%;
         background-color: $color-green;
-
+        height: 596px;
         .hero_spa{
-            width: 90%;
+            width: 87%;
             position: relative;
-            top: -40px;
-            left: -95px;
+            top: -67px;
+            left: -125px;
             
         }
     }
@@ -81,7 +81,7 @@
         .imagen-fondo{
             position: absolute;
             top: 0px;
-            left: 598px;
+            left: 544px;
             
             height: 100%;
             z-index: 1;
@@ -89,5 +89,7 @@
             padding: 0;
         }
     }
+
+    
 
 }
