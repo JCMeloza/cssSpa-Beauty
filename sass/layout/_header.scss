@@ -7,6 +7,7 @@
   padding: 0;
   font-size: 18px;
   margin-left: 160px;
+  z-index: 2;
   .container {
     display: flex;
     width: 67%;
@@ -35,6 +36,10 @@
         a {
           text-decoration: none;
           color: $color-blue;
+
+          &:hover {
+            color: #666ca3;
+          }
         }
       }
     }
@@ -42,22 +47,26 @@
 
   .container-login {
     display: flex;
-    
+
     align-items: center;
     width: 33%;
     background-color: $color-green;
 
-    .search-icon{
+    .search-icon {
       margin-left: 40px;
     }
-    .shop-icon{
+    .shop-icon {
       margin-left: 32px;
       width: 22px;
       margin-right: 74px;
     }
-    .sign-in{
+    .sign-in {
       margin-right: 40px;
       color: $color-blue;
+    }
+
+    .button {
+      @include m.button();
     }
   }
 }
