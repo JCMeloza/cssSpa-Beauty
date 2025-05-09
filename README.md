@@ -80,7 +80,7 @@ Este proyecto es una implementación fiel del diseño original creado en Figma, 
 
 ## Autor
 
-[Tu Nombre/Organización]
+[JCMeloza]
 
 ---
 
